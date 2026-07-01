@@ -889,3 +889,13 @@ footer {
   .about-pill { display: none; }
   .initiatives-header { flex-direction: column; align-items: flex-start; }
 }
+/* TEMPORARY: hide social links until accounts are set up */
+.socials,
+.soc,
+a[href*="instagram.com"],
+a[href*="facebook.com"],
+a[href*="twitter.com"],
+a[href*="linkedin.com"],
+a[href*="github.com"] {
+  display: none !important;
+}
